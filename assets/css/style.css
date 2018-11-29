@@ -1,0 +1,433 @@
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.main-page {
+  height: 100vh;
+}
+
+.background-img {
+  height: auto;
+  position:absolute;
+
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+  padding-bottom: 300px;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.navbutton:hover {
+  cursor: pointer;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.nav-content {
+  display: none;
+  position: absolute;
+  min-width: 320px;
+  height: auto;
+}
+
+.nav-items {
+  position: relative;
+  z-index: 5;
+  padding: 20px;
+  padding-bottom: 50px;
+  font-family: 'Domine', serif;
+  font-size: 55;
+  color: white;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}
+
+#navbar:hover .nav-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: lightblue;
+}
+
+.main-content {
+  font-family: 'Domine', serif;
+  font-size: 115;
+  color: white;
+}
+
+#clickthese {
+  position: relative;
+  top: 200px;
+  left:1200px;
+}
+
+#learnmore {
+  position: relative;
+  top:220px;
+  left:1200px;
+  color: white;
+  font-family: 'Cookie', cursive;
+  font-size: 50;
+}
+
+#hi {
+  position: absolute;
+  top: 225px;
+  left: 200px;
+  display: none;
+}
+
+#imjessie {
+  position: absolute;
+  top: 650px;
+  left: 1282px;
+  display: none;
+}
+
+.popup {
+  display: none;
+}
+
+#clickgrandcanyon {
+  position: absolute;
+  top: 420px;
+  left: 1720px;
+}
+
+#grandcanyon {
+  position: absolute;
+  top: 420px;
+  left: 1500px;
+  color: white;
+  font-family: 'Cookie', cursive;
+  font-size: 50;
+}
+
+#clickrocksit {
+  position: absolute;
+  top: 520px;
+  left: 470px;
+}
+
+#thisisme {
+  position: absolute;
+  top: 600px;
+  left: 440px;
+  color: white;
+  font-family: 'Cookie', cursive;
+  font-size: 50;
+}
+
+.scrolldown {
+  position: absolute;
+  top: 720px;
+  left: 900px;
+}
+
+#aboutme {
+  height: 100vh;
+  padding-top: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  padding-left: 200px;
+  width: 50%;
+}
+
+.description {
+  font-family: 'Domine', serif;
+  font-size: 40px;
+}
+
+.email {
+  font-family: 'Domine', serif;
+  font-size: 25px;
+}
+
+#connect {
+  font-size: 70px;
+  padding: 10px;
+}
+
+#connect-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  padding: 0px 10px 10px 10px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.click {
+  display: flex;
+}
+
+.caption {
+  font-family: 'Cookie', cursive;
+  font-size: 30;
+  padding: 10px 10px 10px 40px;
+  display: none;
+}
+
+.right {
+  padding-left: 100px;
+}
+
+#gallery {
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  height: 800px;
+	width: 600px;
+  position: relative;
+  top: 400px;
+  left: 300px;
+  z-index:-1;
+}
+
+.goleft {
+  z-index: 5;
+  padding: 0;
+  position: relative;
+  top: 300px;
+  left: -600px;
+  height:128px;
+}
+
+.goright {
+  z-index: 5;
+  padding: 0;
+  position: relative;
+  top: 300px;
+  left: -250px;
+  height:128px;
+}
+
+.click-icon {
+  z-index:9;
+}
+
+.click-icong {
+  position: relative;
+  left: 950px;
+  top: -70px;
+}
+
+#carousel-strip {
+  transition: 0.4s;
+  position: absolute;
+  left: auto;
+
+  display: flex;
+
+}
+
+.picture-img {
+  width: 600px;
+  height: auto;
+}
+
+#mywork {
+  height: 100vh;
+  padding-top: 500px;
+
+}
+
+#work {
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.overlay {
+  z-index: 3;
+  display: none;
+}
+
+#overlay1 {
+  position: absolute;
+  top: 2870px;
+
+}
+#bearmaps {
+  position: relative;
+  top: -520px;
+
+}
+#bearmapsd {
+  position: absolute;
+  top:2900px;
+  z-index:5;
+  color: white;
+  line-height: 200%
+}
+
+#overlay2 {
+  position: absolute;
+  top: 2870px;
+}
+
+#flashlight {
+  position: relative;
+  top:-100px;
+}
+
+#flashlightd {
+  position: absolute;
+  top:2900px;
+  z-index:5;
+  color: white;
+  line-height: 200%
+}
+
+#overlay3 {
+  position: absolute;
+  top: 2870px;
+
+}
+
+#tilegame {
+  position: relative;
+  top: -220px;
+  left: 410px;
+}
+
+#tilegamed {
+  position: absolute;
+  top:2900px;
+  z-index:5;
+  color: white;
+  line-height: 200%
+}
+
+#overlay4 {
+  position: absolute;
+  top: 3515px;
+}
+
+#depth {
+  position:relative;
+  top: -400px;
+  left:430px;
+}
+
+#depthd {
+  position: absolute;
+  top:3500px;
+  z-index:5;
+  color: white;
+  line-height: 200%
+}
+
+#overlay5 {
+  position: absolute;
+  top: 3515px;
+}
+
+#maps {
+  position: relative;
+  top: -570px;
+  left: 450px;;
+}
+
+#mapsd {
+  position: absolute;
+  top:3500px;
+  z-index:5;
+  color: white;
+  line-height: 200%
+}
+
+#overlay6 {
+  position: absolute;
+  top: 3515px;
+}
+
+#antsvszombees {
+  position: relative;
+  top: -180px;
+
+}
+
+#antsvszombeesd {
+  position: absolute;
+  top:3500px;
+  z-index:5;
+  color: white;
+  line-height: 200%
+}
+
+#overlay7 {
+  position: absolute;
+  top: 4160px;
+}
+
+#website {
+  position: absolute;
+  top: 4550px;
+}
+
+#websited {
+  position: absolute;
+  top:4170px;
+  z-index:5;
+  color: white;
+  line-height: 200%
+}
+
+.title {
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  font-size: 115;
+  padding: 10px;
+}
