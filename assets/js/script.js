@@ -28,6 +28,11 @@ $(document).ready(function() {
 		currentImageNumber = parseInt($(this).attr('id'),10);
 		$("#carousel-strip").css({left: currentImageNumber*distanceToNextImage});
 	})
+	
+	
+	bounceInt = setInterval(function() {
+    $('#clickthese').effect('bounce',1000)
+}, 1000);
 
 	$("#hi").fadeIn("slow");
 	setTimeout(function() {
@@ -148,9 +153,6 @@ $(document).ready(function() {
 	})
 
 
-	bounceInt = setInterval(function() {
-    $('#clickthese').effect('bounce',1000)
-}, 1000);
 
 	/*$("#thisisme").live('click', function() {
 		$("#thisisme").animate({top: "+=100px"});
