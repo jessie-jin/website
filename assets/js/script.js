@@ -28,8 +28,6 @@ $(document).ready(function() {
 		currentImageNumber = parseInt($(this).attr('id'),10);
 		$("#carousel-strip").css({left: currentImageNumber*distanceToNextImage});
 	})
-	
-	
 	bounceInt = setInterval(function() {
     $('#clickthese').effect('bounce',1000)
 }, 1000);
@@ -151,6 +149,13 @@ $(document).ready(function() {
         x.style.display = "none";
     }
 	})
+
+	$("#scroll").click(function() {
+		$([document.documentElement, document.body]).animate({
+        scrollTop: $("#aboutme").offset().top
+    }, 2000);
+	})
+
 
 
 
