@@ -19,6 +19,7 @@ a:visited {
 }
 
 .background-img {
+  width: 100%;
   height: auto;
   position:absolute;
 
@@ -170,7 +171,7 @@ button {
 
 .left {
   padding-left: 200px;
-  width: 50%;
+  
 }
 
 .description {
