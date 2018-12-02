@@ -2,7 +2,7 @@ var bounceInt=null;
 $(document).ready(function() {
 
 
-	const distanceToNextImage = -600;
+	const distanceToNextImage = -400;
 	let currentImageNumber = 0;
 
 
