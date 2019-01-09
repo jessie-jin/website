@@ -30,12 +30,15 @@ $(document).ready(function() {
 	})
 	bounceInt = setInterval(function() {
     $('#clickthese').effect('bounce',1000)
-}, 1000);
+	}, 1000);
 
-	$("#hi").fadeIn("slow");
+
+	setTimeout(function() {
+  	$("#hi").fadeIn("slow");
+	}, 1000);
 	setTimeout(function() {
   	$("#imjessie").fadeIn("slow");
-}, 1000);
+	}, 2000);
 
   $("#clickgrandcanyon").click(function() {
     var x = document.getElementById("grandcanyon");
