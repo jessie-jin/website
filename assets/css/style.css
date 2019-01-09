@@ -159,7 +159,7 @@ button {
 
 #aboutme {
   height: 100vh;
-  padding-top: 500px;
+  padding-top: 200px;
   display: flex;
   flex-direction: column;
 }
@@ -171,7 +171,8 @@ button {
 
 .left {
   padding-left: 200px;
-
+  height: 100%;
+  width: auto;
 }
 
 .description {
